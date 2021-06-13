@@ -27,44 +27,155 @@
 
 <body>
 
-    <section class="fix-container">
 
-        <span>Cryptonite</span>
-        <div class="img-container">
-            <div class="hlaf-border"></div>
-            <img src="asset/images/download.jpg" alt="">
+
+
+    <section id="nav-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="img-logo" src="asset/bitcoin.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a id="home" class="nav-link" href="#">Home
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="about" class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Reports</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+
+    </section>
+
+    
+
+    <section id="home-section" class="container table-abd">
+        <div class="serach-div">
+            <input id="serach-input" type="text">
+            <button id="serach-btn" class="btn btn-outline-success">Serach</button>
+        </div>
+      
+    </section>
+
+    <section id="about-section" class="center">
+        <div>
+            <table class="table">
+                <tr>
+                    <td>
+                        <h1>Abd alrhamn Skout</h1>
+                        <p><a href="https://github.com/AbdSkout/">Github</a></p>
+                        <p>Email :abd0525656@gmail.com</p>
+                        <p>Cell phone:0525656738 </p>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Projects</h3>
+            <ul>
+                <li>An app that contains two games: 4 in a row and snakes and ladders.</li>
+                <li>An Android app that helps residents in the country find a sports facility and join teams and build
+                    teams and maintain a sports facility for a period of time</li>
+                <li>Compiler built in C</li>
+                <li>building a website for college to manage course and student (bulid using C# and mvc model)</li>
+            </ul>
+            <hr>
+            <h3>Education</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Dates</th>
+                        <th>University/College</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2017-Present</td>
+                        <td>Sami Shamoon College of Engineering </td>
+                        <td>B.Sc., Software Engineer. Current GPA: 88 (Data Structures: 85, Intro to C: 98,
+                            Computational Models: 92,Operating System 90)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <h3>Technical Skills</h3>
+            <table cellspacing="10">
+                <tr>
+                    <td>C, C++, Java,python</td>
+                    <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <td>Eclipse, Visual Studio, Android Studio</td>
+                    <td>⭐️⭐️⭐️</td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Professional Experience</h3>
+            <ul>
+                <li>2017-2018:tutor for student in Sami Shamoon college in subject calculus intro to C, physics</li>
+            </ul>
+            <hr>
+            <h3>Volunteer Experience</h3>
+            <h4>2018 – 2019: “Perach” Program</h4>
+            <li>Tutor to a physically disabled high-school student</li>
+            <h4>2019-2020 :” Siraj” Company</h4>
+            <li>Mentor for student in first and second year</li>
+            <hr>
+            <h3>Languages</h3>
+            <li>Arabic – mother tongue</li>
+            <li>Hebrew – Very good</li>
+            <li>English – good</li>
         </div>
 
     </section>
 
-    <br>
 
-    <section class="n">
-        <div class="navbar-list">
-            <span onclick="this.style='  background-color: #007bff;color:white'" class="btn" href="#">Home</span>
-            <span class="btn" href="#">Live Reports</span>
-            <span class="btn" href="#">About</span>
-        </div>
-        <!-- <div class="empty-div"></div> -->
-        <div class="navbar-serach">
-            <input type="text">
-            <button class="btn btn-outline-success">Serach</button>
-        </div>
-    </section>
 
-    <section class="container table-abd">
-    </section>
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <button id="mybtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Launch demo modal
     </button>
-    
+
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">you can't choose more than 5 coin please choose one to delete</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
